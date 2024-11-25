@@ -316,6 +316,6 @@ app.get("/*", (req, res) => {
   res.send("Not allow");
 });
 
-app.listen(8080, () => {
-  console.log("server running on port 8080");
+app.listen(80, () => {
+  console.log("server running on port 80");
 });
